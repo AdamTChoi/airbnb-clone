@@ -1,0 +1,27 @@
+.home__section {
+  display: flex;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+
+.home__section2 {
+  display: flex;
+  padding: 30px;
+}
+
+@media screen and (max-width: 768px) {
+  .home__section {
+    display: flex;
+    flex-direction: column;
+    margin-top: 80px;
+  }
+
+  .home__section2 {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    padding-top: 0px;
+  }
+}
